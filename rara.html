@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Rara Farma</title>
+
+<!-- Favicon -->
+<link rel="icon" type="image/jpeg"
+href="https://i.pinimg.com/736x/a8/eb/95/a8eb95c703c5d1f165b1a707c9de8692.jpg">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#fff8f9;
+    font-family:'Poppins',sans-serif;
+}
+
+/* HEADER */
+
+header{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:linear-gradient(135deg,#c2185b,#d81b60,#c62828);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    box-shadow:0 5px 20px rgba(194,24,91,.18);
+}
+
+.logo{
+    font-family:'Montserrat',sans-serif;
+    font-size:30px;
+    color:white;
+    font-weight:700;
+    letter-spacing:1px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    margin-left:25px;
+    font-weight:500;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#ffe0e6;
+}
+
+/* SECTION */
+
+.page{
+    min-height:100vh;
+    padding:80px 8%;
+}
+
+.section-title{
+    text-align:center;
+    font-size:46px;
+    margin-bottom:40px;
+    font-family:'Playfair Display',serif;
+    background:linear-gradient(135deg,#c2185b,#d81b60,#c62828);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+/* HOME */
+
+.hero{
+    display:flex;
+    align-items:center;
+    gap:60px;
+    flex-wrap:wrap;
+}
+
+.hero-image{
+    flex:1;
+}
+
+.hero-image img{
+    width:100%;
+    border-radius:25px;
+    box-shadow:0 10px 30px rgba(194,24,91,.15);
+}
+
+.hero-content{
+    flex:1;
+}
+
+.hero-content h1{
+    font-size:60px;
+    font-family:'Playfair Display',serif;
+    margin-bottom:20px;
+    background:linear-gradient(135deg,#c2185b,#d81b60,#c62828);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.hero-content p{
+    text-align:justify;
+    line-height:2;
+    color:#555;
+    font-size:17px;
+}
+
+/* ABOUT */
+
+.about-card{
+    background:white;
+    border-radius:30px;
+    padding:45px;
+    box-shadow:0 8px 25px rgba(194,24,91,.08);
+}
+
+.about-card p{
+    text-align:justify;
+    line-height:2;
+    color:#555;
+}
+
+/* CONTACT */
+
+.contact-card{
+    max-width:800px;
+    margin:auto;
+    background:white;
+    padding:45px;
+    border-radius:30px;
+    box-shadow:0 8px 25px rgba(194,24,91,.08);
+}
+
+.form-group{
+    margin-bottom:22px;
+}
+
+label{
+    display:block;
+    margin-bottom:8px;
+    color:#c62828;
+    font-weight:600;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:15px;
+    border:2px solid #f8bbd0;
+    border-radius:15px;
+    font-size:16px;
+    font-family:'Poppins',sans-serif;
+}
+
+textarea{
+    min-height:180px;
+    resize:vertical;
+}
+
+button{
+    background:linear-gradient(135deg,#c2185b,#d81b60,#c62828);
+    color:white;
+    border:none;
+    padding:15px 35px;
+    border-radius:15px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:600;
+}
+
+button:hover{
+    opacity:.9;
+}
+
+/* FOOTER */
+
+footer{
+    background:linear-gradient(135deg,#c2185b,#d81b60,#c62828);
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+.highlight{
+    color:#c62828;
+    font-weight:600;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+
+    <div class="logo">Rara Farma</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+</header>
+
+<!-- HOME -->
+
+<section class="page" id="home">
+
+    <div class="hero">
+
+        <div class="hero-image">
+            <img src="https://i.pinimg.com/736x/67/28/46/6728464adb66a7e5edb8396f2f023bc3.jpg"
+            alt="Rara Farma">
+        </div>
+
+        <div class="hero-content">
+
+            <h1>Rara Farma</h1>
+
+            <p>
+                <span class="highlight">Rara Farma</span> merupakan layanan kesehatan yang mengutamakan kualitas pelayanan, kenyamanan pasien, serta penyediaan obat-obatan yang aman dan terpercaya. Klinik kesehatan berperan penting dalam memberikan pelayanan medis dasar, konsultasi kesehatan, pemeriksaan rutin, hingga edukasi kesehatan bagi masyarakat. Didukung dengan ketersediaan obat-obatan yang sesuai standar dan tenaga kesehatan yang kompeten, Rara Farma hadir sebagai mitra kesehatan yang siap membantu masyarakat dalam menjaga kualitas hidup yang lebih baik.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section class="page" id="about">
+
+    <h2 class="section-title">About Us</h2>
+
+    <div class="about-card">
+
+        <p>
+            Rara Farma adalah website profil klinik kesehatan dan layanan farmasi yang dirancang dengan tampilan modern, profesional, dan responsif. Website ini bertujuan untuk memberikan informasi mengenai layanan kesehatan, konsultasi medis, serta penyediaan obat-obatan yang berkualitas bagi masyarakat. Dengan desain wireframe yang bersih dan mudah digunakan, pengunjung dapat mengakses informasi secara cepat dan nyaman.
+        </p>
+
+        <br>
+
+        <p>
+            Perpaduan warna gradasi antara pink tua dan merah dipilih untuk menciptakan kesan hangat, peduli, profesional, dan penuh kepercayaan. Website ini dilengkapi dengan halaman Home, About, dan Contact yang memungkinkan pengguna memperoleh informasi mengenai layanan kesehatan serta menghubungi pihak pengelola melalui formulir pesan yang tersedia.
+        </p>
+
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="page" id="contact">
+
+    <h2 class="section-title">Contact Us</h2>
+
+    <div class="contact-card">
+
+        <form>
+
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email"
+                placeholder="Masukkan email Anda"
+                required>
+            </div>
+
+            <div class="form-group">
+                <label>Pesan</label>
+                <textarea
+                placeholder="Tulis pesan Anda di sini..."
+                required></textarea>
+            </div>
+
+            <button type="submit">
+                Kirim Pesan
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Rara Farma • Klinik Kesehatan & Farmasi
+</footer>
+
+</body>
+</html>
